@@ -24,6 +24,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+<!--        android:text="@{viewmodel.countQuote}"-->
+
 
         <TextView
             android:id="@+id/txtDistinctSources"
@@ -33,6 +35,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtNumberOfQuotes" />
+
+<!--        android:text="@{viewmodel.distinctSources}"-->
 
 
         <include
@@ -44,6 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+<!--        bind:model="@{viewmodel.lastQuote}"-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
